@@ -1,0 +1,15 @@
+{
+  "name": "atlas-2-pages",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ATLAS 2.0 static edition for GitHub Pages. Runs entirely in the browser.",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs --serve",
+    "test": "node build.mjs --test",
+    "e2e": "node test/e2e.cjs",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": { "react": "19.2.0", "react-dom": "19.2.0" },
+  "devDependencies": { "esbuild": "0.25.0", "typescript": "5.9.3", "@types/react": "19.2.2", "@types/react-dom": "19.2.1" }
+}

@@ -1,0 +1,414 @@
+{
+ "free_ext": {
+  "ok": true,
+  "errors": [],
+  "warnings": [
+   [
+    "Inventory",
+    5,
+    "D",
+    "Extended = Y on PostgreSQL 15 is ignored because the component is Amber; extended support applies to Red components only."
+   ]
+  ],
+  "status": {
+   "A": "GREEN",
+   "B": "BLUE",
+   "C": "BLUE",
+   "D": "AMBER"
+  },
+  "summary": {
+   "GREEN": 1,
+   "AMBER": 1,
+   "BLUE": 2,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 1
+  }
+ },
+ "red_no_ext": {
+  "ok": false,
+  "errors": [
+   [
+    "Inventory",
+    2,
+    "ID_1",
+    "Extended (Y/N) is mandatory for Red components (PostgreSQL 13: standard support ended 13/11/2025)."
+   ]
+  ],
+  "warnings": [],
+  "status": {
+   "ID_1": "RED"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 0,
+   "BLUE": 0,
+   "RED": 1
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 0
+  }
+ },
+ "not_declared": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "status": {
+   "A": "AMBER",
+   "B": "AMBER"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 2,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 1,
+   "not_declared": 1,
+   "colour_differences": 0,
+   "no_plan": 2,
+   "free_extended_ended": 0
+  }
+ },
+ "wildcard": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "status": {
+   "ID_1": "GREEN"
+  },
+  "summary": {
+   "GREEN": 1,
+   "AMBER": 0,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 0,
+   "free_extended_ended": 0
+  }
+ },
+ "owners": {
+  "ok": false,
+  "errors": [
+   [
+    "Inventory",
+    2,
+    "ID_1",
+    "The row has neither a Support Owner nor a Platform Owner, so it has no primary owner."
+   ]
+  ],
+  "warnings": [],
+  "status": {
+   "B": "AMBER"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 1,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 0
+  }
+ },
+ "row_errors": {
+  "ok": false,
+  "errors": [
+   [
+    "Inventory",
+    3,
+    "A",
+    "ID 'A' is already used on row 2."
+   ],
+   [
+    "Inventory",
+    4,
+    "B",
+    "Application Type 'Mainframe' is not recognised. Use App, Web, DB, Cloud DB, OS, Platform, PF_Web, Cloud Platform or Cloud Service."
+   ],
+   [
+    "Inventory",
+    5,
+    "C",
+    "Extended (Y/N) must be Y or N, not 'maybe'."
+   ],
+   [
+    "Inventory",
+    6,
+    "D",
+    "UPGRADE PLANNED needs an Upgrade Plan Timelines quarter."
+   ],
+   [
+    "Inventory",
+    7,
+    "E",
+    "Upgrade Plan Timelines 'Q1 2031' must be one of the next 8 quarters (Q4 2026 to Q3 2028)."
+   ],
+   [
+    "Inventory",
+    9,
+    "G",
+    "App ID is required."
+   ]
+  ],
+  "warnings": [],
+  "status": {
+   "A": "AMBER",
+   "F": "AMBER"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 2,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 0
+  }
+ },
+ "ts_errors": {
+  "ok": false,
+  "errors": [
+   [
+    "TechStack",
+    6,
+    null,
+    "PostgreSQL 15 is already listed on row 2."
+   ],
+   [
+    "TechStack",
+    7,
+    null,
+    "Standard EOS Date '31/02/2025' is not a valid date (use DD/MM/YYYY)."
+   ],
+   [
+    "TechStack",
+    8,
+    null,
+    "Technology Category, Technology Name and Version are required; category 'Nonsense' is not recognised."
+   ]
+  ],
+  "warnings": [],
+  "status": {
+   "ID_1": "AMBER"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 1,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 0
+  }
+ },
+ "aliases": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "status": {
+   "ID_1": "BLUE"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 0,
+   "BLUE": 1,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 0,
+   "free_extended_ended": 0
+  }
+ },
+ "missing_sheet": {
+  "ok": false,
+  "errors": [
+   [
+    "Techstack",
+    null,
+    null,
+    "Sheet 'Techstack' is missing."
+   ]
+  ],
+  "warnings": [],
+  "status": {
+   "ID_1": "AMBER"
+  },
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 1,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 1,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 1,
+   "free_extended_ended": 0
+  }
+ },
+ "missing_col": {
+  "ok": false,
+  "errors": [
+   [
+    "Inventory",
+    1,
+    null,
+    "Missing column(s): Application Type, Software Name, Software Version"
+   ]
+  ],
+  "warnings": [],
+  "status": {},
+  "summary": {
+   "GREEN": 0,
+   "AMBER": 0,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 0,
+   "no_plan": 0,
+   "free_extended_ended": 0
+  }
+ },
+ "colour": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "status": {
+   "A": "AMBER",
+   "B": "GREEN"
+  },
+  "summary": {
+   "GREEN": 1,
+   "AMBER": 1,
+   "BLUE": 0,
+   "RED": 0
+  },
+  "apps": [
+   "1001"
+  ],
+  "quality": {
+   "not_in_techstack": 0,
+   "not_declared": 0,
+   "colour_differences": 1,
+   "no_plan": 1,
+   "free_extended_ended": 1
+  }
+ },
+ "template": {
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "status": {
+   "ID_1": "GREEN",
+   "ID_2": "GREEN",
+   "ID_3": "AMBER",
+   "ID_4": "BLUE",
+   "ID_5": "RED",
+   "ID_6": "AMBER",
+   "ID_7": "GREEN",
+   "ID_8": "GREEN",
+   "ID_9": "GREEN",
+   "ID_10": "BLUE",
+   "ID_11": "AMBER",
+   "ID_12": "RED",
+   "ID_13": "BLUE"
+  },
+  "summary": {
+   "GREEN": 5,
+   "AMBER": 3,
+   "BLUE": 3,
+   "RED": 2
+  },
+  "apps": [
+   "30000001",
+   "30000002",
+   "30000003",
+   "30000004"
+  ],
+  "quality": {
+   "not_in_techstack": 1,
+   "not_declared": 1,
+   "colour_differences": 0,
+   "no_plan": 0,
+   "free_extended_ended": 0
+  }
+ },
+ "not_xlsx": {
+  "ok": false,
+  "errors": [
+   [
+    null,
+    null,
+    null,
+    "The file is not a valid .xlsx workbook."
+   ]
+  ],
+  "warnings": [],
+  "status": {},
+  "summary": null,
+  "apps": [],
+  "quality": {}
+ }
+}

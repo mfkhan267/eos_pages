@@ -1,0 +1,1522 @@
+[
+{
+"category": "Web Servers",
+"name": "Apache HTTP Server",
+"version": "2.2",
+"std": "2017-12-31",
+"ext": null,
+"url": "https://httpd.apache.org/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Web Servers",
+"name": "Apache HTTP Server",
+"version": "2.4",
+"std": null,
+"ext": null,
+"url": "https://httpd.apache.org/",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Web Servers",
+"name": "NGINX",
+"version": "1.26",
+"std": null,
+"ext": null,
+"url": "https://nginx.org/",
+"vstatus": "UNKNOWN",
+"notes": "No formal vendor lifecycle for open source NGINX. Enter your internal end-of-support date."
+},
+{
+"category": "Web Servers",
+"name": "NGINX",
+"version": "1.28",
+"std": null,
+"ext": null,
+"url": "https://nginx.org/",
+"vstatus": "UNKNOWN",
+"notes": "No formal vendor lifecycle for open source NGINX. Enter your internal end-of-support date."
+},
+{
+"category": "Web Servers",
+"name": "IIS",
+"version": "7.5",
+"std": "2015-01-13",
+"ext": "2020-01-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "IIS follows its Windows Server host. The 10.0 row mirrors Windows Server 2016; confirm the host version."
+},
+{
+"category": "Web Servers",
+"name": "IIS",
+"version": "8.0",
+"std": "2018-10-09",
+"ext": "2023-10-10",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "IIS follows its Windows Server host. The 10.0 row mirrors Windows Server 2016; confirm the host version."
+},
+{
+"category": "Web Servers",
+"name": "IIS",
+"version": "8.5",
+"std": "2018-10-09",
+"ext": "2023-10-10",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "IIS follows its Windows Server host. The 10.0 row mirrors Windows Server 2016; confirm the host version."
+},
+{
+"category": "Web Servers",
+"name": "IIS",
+"version": "10.0",
+"std": "2022-01-11",
+"ext": "2027-01-12",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "IIS follows its Windows Server host. The 10.0 row mirrors Windows Server 2016; confirm the host version."
+},
+{
+"category": "Web Servers",
+"name": "Apache Tomcat",
+"version": "8.5",
+"std": "2024-03-31",
+"ext": null,
+"url": "https://tomcat.apache.org/whichversion.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Web Servers",
+"name": "Apache Tomcat",
+"version": "10.0",
+"std": "2022-10-31",
+"ext": null,
+"url": "https://tomcat.apache.org/whichversion.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Web Servers",
+"name": "Apache Tomcat",
+"version": "9.0",
+"std": null,
+"ext": null,
+"url": "https://tomcat.apache.org/whichversion.html",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Web Servers",
+"name": "Apache Tomcat",
+"version": "10.1",
+"std": null,
+"ext": null,
+"url": "https://tomcat.apache.org/whichversion.html",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Java (OpenJDK)",
+"version": "8",
+"std": "2022-03-31",
+"ext": "2030-12-31",
+"url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Java (OpenJDK)",
+"version": "11",
+"std": "2023-09-30",
+"ext": "2032-01-31",
+"url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Java (OpenJDK)",
+"version": "17",
+"std": "2026-09-30",
+"ext": "2029-09-30",
+"url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Java (OpenJDK)",
+"version": "21",
+"std": "2028-09-30",
+"ext": "2031-09-30",
+"url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Java (OpenJDK)",
+"version": "25",
+"std": "2030-09-30",
+"ext": "2033-09-30",
+"url": "https://www.oracle.com/java/technologies/java-se-support-roadmap.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": ".NET",
+"version": "6",
+"std": "2024-11-12",
+"ext": null,
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": ".NET",
+"version": "8",
+"std": "2026-11-10",
+"ext": null,
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": ".NET",
+"version": "10",
+"std": "2028-11-14",
+"ext": null,
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Spring Boot",
+"version": "2.7",
+"std": "2023-11-24",
+"ext": null,
+"url": "https://spring.io/projects/spring-boot#support",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Spring Boot",
+"version": "3.2",
+"std": "2024-12-31",
+"ext": null,
+"url": "https://spring.io/projects/spring-boot#support",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Node.js",
+"version": "16",
+"std": "2023-09-11",
+"ext": null,
+"url": "https://nodejs.org/en/about/previous-releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Node.js",
+"version": "18",
+"std": "2025-04-30",
+"ext": null,
+"url": "https://nodejs.org/en/about/previous-releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Node.js",
+"version": "20",
+"std": "2026-04-30",
+"ext": null,
+"url": "https://nodejs.org/en/about/previous-releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Node.js",
+"version": "22",
+"std": "2027-04-30",
+"ext": null,
+"url": "https://nodejs.org/en/about/previous-releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Node.js",
+"version": "24",
+"std": "2028-04-30",
+"ext": null,
+"url": "https://nodejs.org/en/about/previous-releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Python",
+"version": "3.9",
+"std": "2025-10-31",
+"ext": null,
+"url": "https://devguide.python.org/versions/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Python",
+"version": "3.10",
+"std": "2026-10-31",
+"ext": null,
+"url": "https://devguide.python.org/versions/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Python",
+"version": "3.11",
+"std": "2027-10-31",
+"ext": null,
+"url": "https://devguide.python.org/versions/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Python",
+"version": "3.12",
+"std": "2028-10-31",
+"ext": null,
+"url": "https://devguide.python.org/versions/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Python",
+"version": "3.13",
+"std": "2029-10-31",
+"ext": null,
+"url": "https://devguide.python.org/versions/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Django",
+"version": "3.2",
+"std": "2024-04-01",
+"ext": null,
+"url": "https://www.djangoproject.com/download/#supported-versions",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Django",
+"version": "4.2",
+"std": "2026-04-30",
+"ext": null,
+"url": "https://www.djangoproject.com/download/#supported-versions",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Django",
+"version": "5.2",
+"std": "2028-04-30",
+"ext": null,
+"url": "https://www.djangoproject.com/download/#supported-versions",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "PHP",
+"version": "7.4",
+"std": "2022-11-28",
+"ext": null,
+"url": "https://www.php.net/supported-versions.php",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "PHP",
+"version": "8.0",
+"std": "2023-11-26",
+"ext": null,
+"url": "https://www.php.net/supported-versions.php",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "PHP",
+"version": "8.1",
+"std": "2025-12-31",
+"ext": null,
+"url": "https://www.php.net/supported-versions.php",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "PHP",
+"version": "8.2",
+"std": "2026-12-31",
+"ext": null,
+"url": "https://www.php.net/supported-versions.php",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "PHP",
+"version": "8.3",
+"std": "2027-12-31",
+"ext": null,
+"url": "https://www.php.net/supported-versions.php",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Angular",
+"version": "17",
+"std": "2025-05-15",
+"ext": null,
+"url": "https://angular.dev/reference/releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Angular",
+"version": "18",
+"std": "2025-11-21",
+"ext": null,
+"url": "https://angular.dev/reference/releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Angular",
+"version": "19",
+"std": "2026-05-19",
+"ext": null,
+"url": "https://angular.dev/reference/releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Angular",
+"version": "20",
+"std": "2026-11-21",
+"ext": null,
+"url": "https://angular.dev/reference/releases",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Vue.js",
+"version": "2.7",
+"std": "2023-12-31",
+"ext": null,
+"url": "https://v2.vuejs.org/eol/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "JBOSS EAP",
+"version": "6.4",
+"std": "2019-06-30",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/jboss_notes",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "JBOSS EAP",
+"version": "7.2",
+"std": "2025-06-30",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/jboss_notes",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "JBOSS EAP",
+"version": "7.3",
+"std": "2025-06-30",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/jboss_notes",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "JBOSS EAP",
+"version": "7.4",
+"std": null,
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/jboss_notes",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Microsoft Exchange Server",
+"version": "2016",
+"std": "2020-10-13",
+"ext": "2025-10-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Microsoft Exchange Server",
+"version": "2019",
+"std": "2023-01-09",
+"ext": "2025-10-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Microsoft SharePoint Server",
+"version": "2013",
+"std": "2018-04-10",
+"ext": "2023-04-11",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Microsoft SharePoint Server",
+"version": "2016",
+"std": "2021-07-13",
+"ext": "2026-07-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Middleware & Other Apps",
+"name": "Microsoft SharePoint Server",
+"version": "2019",
+"std": "2024-07-09",
+"ext": "2026-07-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Platform Apps",
+"name": "IBM API Connect",
+"version": "10.0.x",
+"std": "2028-06-30",
+"ext": null,
+"url": "https://www.ibm.com/support/pages/lifecycle/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Date taken from the dataset you shared. Verify with IBM."
+},
+{
+"category": "Platform Apps",
+"name": "Kong Gateway",
+"version": "3.4",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "Keycloak",
+"version": "26.2",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "Apache Kafka",
+"version": "3.6",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "RabbitMQ",
+"version": "3.12",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "HashiCorp Vault",
+"version": "1.15",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "Redis",
+"version": "7.2",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "Elasticsearch",
+"version": "7.17",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Platform Apps",
+"name": "Red Hat OpenShift",
+"version": "4.18",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "12",
+"std": "2024-11-14",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "13",
+"std": "2025-11-13",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "14",
+"std": "2026-11-12",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "15",
+"std": "2027-11-11",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "16",
+"std": "2028-11-09",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "17",
+"std": "2029-11-08",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "PostgreSQL",
+"version": "18",
+"std": "2030-11-14",
+"ext": null,
+"url": "https://www.postgresql.org/support/versioning/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MySQL",
+"version": "5.7",
+"std": "2023-10-31",
+"ext": null,
+"url": "https://www.mysql.com/support/eol-notice.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MySQL",
+"version": "8.0",
+"std": "2026-04-30",
+"ext": null,
+"url": "https://www.mysql.com/support/eol-notice.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MySQL",
+"version": "8.4",
+"std": "2032-04-30",
+"ext": null,
+"url": "https://www.mysql.com/support/eol-notice.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MariaDB",
+"version": "10.6",
+"std": "2026-07-06",
+"ext": null,
+"url": "https://mariadb.org/about/#maintenance-policy",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MariaDB",
+"version": "10.11",
+"std": "2028-02-16",
+"ext": null,
+"url": "https://mariadb.org/about/#maintenance-policy",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MariaDB",
+"version": "11.4",
+"std": "2029-05-29",
+"ext": null,
+"url": "https://mariadb.org/about/#maintenance-policy",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Oracle Database",
+"version": "11.2.0.4",
+"std": "2015-01-31",
+"ext": "2020-12-31",
+"url": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Oracle Database",
+"version": "12.1.0.2",
+"std": "2018-07-31",
+"ext": "2022-07-31",
+"url": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Oracle Database",
+"version": "19c",
+"std": "2024-04-30",
+"ext": "2027-04-30",
+"url": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Oracle Database",
+"version": "23ai",
+"std": "2031-04-30",
+"ext": null,
+"url": "https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2012",
+"std": "2017-07-11",
+"ext": "2022-07-12",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2014",
+"std": "2019-07-09",
+"ext": "2024-07-09",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2016",
+"std": "2021-07-13",
+"ext": "2026-07-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2017",
+"std": "2022-10-11",
+"ext": "2027-10-12",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2019",
+"std": "2025-02-28",
+"ext": "2030-01-08",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "Microsoft SQL Server",
+"version": "2022",
+"std": "2028-01-11",
+"ext": "2033-01-11",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MongoDB",
+"version": "4.4",
+"std": "2024-02-29",
+"ext": null,
+"url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MongoDB",
+"version": "5.0",
+"std": "2024-10-31",
+"ext": null,
+"url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MongoDB",
+"version": "6.0",
+"std": "2025-07-31",
+"ext": null,
+"url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MongoDB",
+"version": "7.0",
+"std": "2026-08-31",
+"ext": null,
+"url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "MongoDB",
+"version": "8.0",
+"std": "2029-10-31",
+"ext": null,
+"url": "https://www.mongodb.com/legal/support-policy/lifecycles",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Databases",
+"name": "IBM Db2",
+"version": "11.1",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "IBM Db2",
+"version": "11.5",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "Apache Cassandra",
+"version": "4.0",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "Apache Cassandra",
+"version": "4.1",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "SAP HANA",
+"version": "2.0",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "Couchbase Server",
+"version": "7.2",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "Databases",
+"name": "Amazon RDS for PostgreSQL",
+"version": "16.x",
+"std": "2029-02-28",
+"ext": null,
+"url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Date taken from the dataset you shared. Verify with AWS."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2008",
+"std": "2015-01-13",
+"ext": "2020-01-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2008 R2",
+"std": "2015-01-13",
+"ext": "2020-01-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2012",
+"std": "2018-10-09",
+"ext": "2023-10-10",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2012 R2",
+"std": "2018-10-09",
+"ext": "2023-10-10",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2016",
+"std": "2022-01-11",
+"ext": "2027-01-12",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2019",
+"std": "2024-01-09",
+"ext": "2029-01-09",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2022",
+"std": "2026-10-13",
+"ext": "2031-10-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Windows Server",
+"version": "2025",
+"std": "2029-11-13",
+"ext": "2034-11-14",
+"url": "https://learn.microsoft.com/lifecycle/products/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Red Hat Enterprise Linux",
+"version": "6",
+"std": "2020-11-30",
+"ext": "2024-06-30",
+"url": "https://access.redhat.com/support/policy/updates/errata",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Red Hat Enterprise Linux",
+"version": "7",
+"std": "2024-06-30",
+"ext": "2028-06-30",
+"url": "https://access.redhat.com/support/policy/updates/errata",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Red Hat Enterprise Linux",
+"version": "8",
+"std": "2029-05-31",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/errata",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Red Hat Enterprise Linux",
+"version": "9",
+"std": "2032-05-31",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/errata",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Red Hat Enterprise Linux",
+"version": "10",
+"std": "2035-05-31",
+"ext": null,
+"url": "https://access.redhat.com/support/policy/updates/errata",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Ubuntu Server",
+"version": "18.04",
+"std": "2023-05-31",
+"ext": null,
+"url": "https://ubuntu.com/about/release-cycle",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Ubuntu Server",
+"version": "20.04",
+"std": "2025-05-31",
+"ext": null,
+"url": "https://ubuntu.com/about/release-cycle",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Ubuntu Server",
+"version": "22.04",
+"std": "2027-06-01",
+"ext": null,
+"url": "https://ubuntu.com/about/release-cycle",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Ubuntu Server",
+"version": "24.04",
+"std": "2029-06-01",
+"ext": null,
+"url": "https://ubuntu.com/about/release-cycle",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Debian",
+"version": "10",
+"std": "2022-09-10",
+"ext": "2024-06-30",
+"url": "https://www.debian.org/releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Debian",
+"version": "11",
+"std": "2024-08-14",
+"ext": "2026-08-31",
+"url": "https://www.debian.org/releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Debian",
+"version": "12",
+"std": "2026-06-10",
+"ext": "2028-06-30",
+"url": "https://www.debian.org/releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Oracle Linux",
+"version": "7",
+"std": "2024-12-31",
+"ext": null,
+"url": "https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Oracle Linux",
+"version": "8",
+"std": "2029-07-31",
+"ext": null,
+"url": "https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Oracle Linux",
+"version": "9",
+"std": "2032-06-30",
+"ext": null,
+"url": "https://www.oracle.com/a/ocom/docs/elsp-lifetime-069338.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Rocky Linux",
+"version": "8",
+"std": "2029-05-31",
+"ext": null,
+"url": "https://rockylinux.org/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Rocky Linux",
+"version": "9",
+"std": "2032-05-31",
+"ext": null,
+"url": "https://rockylinux.org/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "AlmaLinux",
+"version": "8",
+"std": "2029-03-01",
+"ext": null,
+"url": "https://almalinux.org/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "AlmaLinux",
+"version": "9",
+"std": "2032-05-31",
+"ext": null,
+"url": "https://almalinux.org/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "CentOS",
+"version": "7",
+"std": "2024-06-30",
+"ext": null,
+"url": "https://www.centos.org/centos-linux-eol/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "CentOS",
+"version": "8",
+"std": "2021-12-31",
+"ext": null,
+"url": "https://www.centos.org/centos-linux-eol/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "CentOS",
+"version": "Stream 9",
+"std": "2027-05-31",
+"ext": null,
+"url": "https://www.centos.org/centos-linux-eol/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Amazon Linux",
+"version": "2",
+"std": "2026-06-30",
+"ext": null,
+"url": "https://aws.amazon.com/linux/amazon-linux-2023/faqs/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "Amazon Linux",
+"version": "2023",
+"std": "2029-03-15",
+"ext": null,
+"url": "https://aws.amazon.com/linux/amazon-linux-2023/faqs/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "SUSE Linux Enterprise Server",
+"version": "12 SP5",
+"std": "2024-10-31",
+"ext": "2027-10-31",
+"url": "https://www.suse.com/lifecycle/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "AIX",
+"version": "7.1",
+"std": "2023-04-30",
+"ext": null,
+"url": "https://www.ibm.com/support/pages/aix-support-lifecycle-information",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "OS",
+"name": "AIX",
+"version": "7.2",
+"std": null,
+"ext": null,
+"url": "https://www.ibm.com/support/pages/aix-support-lifecycle-information",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "OS",
+"name": "AIX",
+"version": "7.3",
+"std": null,
+"ext": null,
+"url": "https://www.ibm.com/support/pages/aix-support-lifecycle-information",
+"vstatus": "UNKNOWN",
+"notes": "No end-of-support date entered. Counts as Amber (Not Declared) until you add one."
+},
+{
+"category": "OS",
+"name": "Solaris",
+"version": "11.4",
+"std": "2031-11-30",
+"ext": "2034-11-30",
+"url": "https://www.oracle.com/us/support/library/lifetime-support-hardware-301321.pdf",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.28",
+"std": "2024-10-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.29",
+"std": "2025-02-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.30",
+"std": "2025-06-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.31",
+"std": "2025-10-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.32",
+"std": "2026-02-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.33",
+"std": "2026-06-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Kubernetes",
+"version": "1.34",
+"std": "2026-10-28",
+"ext": null,
+"url": "https://kubernetes.io/releases/patch-releases/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Amazon EKS",
+"version": "1.30",
+"std": "2025-07-23",
+"ext": "2026-07-23",
+"url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Extended EOS is the paid EKS extended-support window."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Amazon EKS",
+"version": "1.31",
+"std": "2025-11-26",
+"ext": "2026-11-26",
+"url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Extended EOS is the paid EKS extended-support window."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Amazon EKS",
+"version": "1.32",
+"std": "2026-03-23",
+"ext": "2027-03-23",
+"url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Extended EOS is the paid EKS extended-support window."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Amazon EKS",
+"version": "1.33",
+"std": "2026-07-29",
+"ext": "2027-07-29",
+"url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "Extended EOS is the paid EKS extended-support window."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "VMware vSphere",
+"version": "6.7",
+"std": "2022-10-15",
+"ext": null,
+"url": "https://lifecycle.vmware.com/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "VMware vSphere",
+"version": "7.0",
+"std": "2025-10-02",
+"ext": null,
+"url": "https://lifecycle.vmware.com/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "VMware vSphere",
+"version": "8.0",
+"std": "2027-10-11",
+"ext": null,
+"url": "https://lifecycle.vmware.com/",
+"vstatus": "NEEDS VERIFICATION",
+"notes": "NEEDS VERIFICATION: date recalled from the vendor policy, not checked against the source. Verify at the URL."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Azure Kubernetes Service",
+"version": "1.33",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "Managed-service lifecycle is service and region specific. Enter the date from the provider's lifecycle page."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Google Kubernetes Engine",
+"version": "1.33",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "Managed-service lifecycle is service and region specific. Enter the date from the provider's lifecycle page."
+},
+{
+"category": "Cloud Services & Platforms",
+"name": "Amazon MSK",
+"version": "3.6",
+"std": null,
+"ext": null,
+"url": null,
+"vstatus": "UNKNOWN",
+"notes": "Managed-service lifecycle is service and region specific. Enter the date from the provider's lifecycle page."
+}
+]
